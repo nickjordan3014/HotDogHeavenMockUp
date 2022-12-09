@@ -1,0 +1,136 @@
+:root {
+    --darkblue: #102866;
+    --lightblue: #507cdb;
+    --orange: #eb3005;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+main {
+    border: 2px solid var(--darkblue);
+}
+
+.header {
+    display: block;
+    width: 100%;
+}
+
+.top-nav, .main-head {
+    padding: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.top-nav{
+    background-color: var(--lightblue);
+}
+
+.main-head{
+    background-color: var(--darkblue);
+}
+
+.top-nav-links {
+    text-decoration: none;
+    color: white;
+    padding-inline: 10px;
+    font-size: 24px;   
+    text-shadow: 1px 1px 1px var(--orange);
+}
+
+.top-nav-links:hover {
+    background-color: var(--orange);
+}
+
+.grid {
+    grid-template-columns: 75% 25%;
+    display: grid;
+}
+
+.grid-item-long {
+    grid-column: 1 / span 1;
+    margin-top: 20px;
+    padding-inline: 20px;
+}
+
+.grid-item {
+    grid-column: 1 / span 2;
+    margin-top: 20px;
+    padding-inline: 20px;
+}
+
+.grid-item-short {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 4;
+}
+
+/*Menu Items*/
+
+.menu-title {
+    background-color: var(--darkblue);
+    color: white;
+    padding-top: 20px;
+    padding: 10px;
+    margin: 0;
+}
+
+.menu-items {
+    background-color: var(--lightblue);
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px var(--orange);
+    padding: 15px;
+    border: 1px solid var(--darkblue);
+}
+
+.menu-items:hover{ 
+    background-color: var(--orange);
+}
+
+table {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid var(--darkblue);
+}
+
+table {
+    width: 100%;
+}
+
+td, tr{
+    text-align: left;
+}
+
+.pdfmenu {
+    text-align: center;
+    font-size: 16px;
+}
